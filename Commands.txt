@@ -1,0 +1,9 @@
+Commands:
+.venv\Scripts\activate
+python -m twin.cli walls --plan plan.png
+python -m twin.cli serve --plan plan.png --entrance-x [x] --entrance-y [y] --entrance-heading 0 --out session_plan
+
+Values:
+x = 330
+y = 238
+IP = http://10.176.136.16:8000
