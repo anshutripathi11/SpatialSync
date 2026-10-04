@@ -1,0 +1,14 @@
+opencv-python-headless>=4.8
+numpy>=1.24
+scikit-image>=0.21
+pillow>=10
+fastapi>=0.110
+uvicorn>=0.29
+python-multipart>=0.0.9
+anthropic>=0.40
+torch>=2.2
+torchvision>=0.17
+transformers>=4.40
+ultralytics>=8.3
+# text encoder used by YOLOE / YOLO-World (zip URL so Git is not required)
+clip @ https://github.com/ultralytics/CLIP/archive/refs/heads/main.zip

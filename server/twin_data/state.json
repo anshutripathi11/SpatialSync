@@ -1,0 +1,440 @@
+{
+ "plan_file": "plan.png",
+ "plan_width": 1728,
+ "plan_height": 1080,
+ "px_per_m": 40.0,
+ "entrance": [
+  1483.0,
+  438.0
+ ],
+ "entrance_heading_deg": -90.0,
+ "wall_height_m": 2.7,
+ "walls": [
+  {
+   "id": "W000",
+   "a": [
+    248.0,
+    155.5
+   ],
+   "b": [
+    1487.0,
+    155.5
+   ],
+   "thickness_px": 5.0,
+   "height_m": 2.7,
+   "color_hex": "#C3C0BA",
+   "material": "painted",
+   "best_score": 80.33074466907617,
+   "observed": true,
+   "features": [
+    {
+     "type": "window",
+     "label": "window",
+     "t0": 0.5713904271674671,
+     "t1": 0.8586748021447737,
+     "bottom_m": 0.9,
+     "top_m": 2.1,
+     "cuts_wall": true,
+     "state": "",
+     "score": 29.97638581117903,
+     "photo_id": "e102eb99"
+    },
+    {
+     "type": "window",
+     "label": "window",
+     "t0": 0.6199542020951072,
+     "t1": 0.7123172561553246,
+     "bottom_m": 0.9,
+     "top_m": 2.1,
+     "cuts_wall": true,
+     "state": "",
+     "score": 17.037502026019904,
+     "photo_id": "58bff8ea"
+    },
+    {
+     "type": "screen",
+     "label": "computer monitor (0.33)",
+     "t0": 0.6585995826651864,
+     "t1": 0.7121473049426515,
+     "bottom_m": 1.0,
+     "top_m": 1.8,
+     "cuts_wall": false,
+     "state": "",
+     "score": 17.037502026019904,
+     "photo_id": "58bff8ea"
+    },
+    {
+     "type": "window",
+     "label": "window",
+     "t0": 0.7267177702797147,
+     "t1": 0.9393640675454222,
+     "bottom_m": 0.9,
+     "top_m": 2.1,
+     "cuts_wall": true,
+     "state": "",
+     "score": 45.54496591316473,
+     "photo_id": "9ab15e65"
+    },
+    {
+     "type": "sign",
+     "label": "poster",
+     "t0": 0.8903593787973858,
+     "t1": 0.987956274232984,
+     "bottom_m": 1.5,
+     "top_m": 2.0,
+     "cuts_wall": false,
+     "state": "",
+     "score": 80.33074466907617,
+     "photo_id": "c0f66202"
+    },
+    {
+     "type": "window",
+     "label": "window (0.18)",
+     "t0": 0.8903593787973858,
+     "t1": 0.9969771237874324,
+     "bottom_m": 0.9,
+     "top_m": 2.1,
+     "cuts_wall": true,
+     "state": "",
+     "score": 80.33074466907617,
+     "photo_id": "c0f66202"
+    },
+    {
+     "type": "sign",
+     "label": "sign",
+     "t0": 0.9311325349505237,
+     "t1": 0.9690704326773177,
+     "bottom_m": 1.5,
+     "top_m": 2.0,
+     "cuts_wall": false,
+     "state": "",
+     "score": 80.33074466907617,
+     "photo_id": "c0f66202"
+    },
+    {
+     "type": "sign",
+     "label": "sign",
+     "t0": 0.9317237605983189,
+     "t1": 0.9969771237874324,
+     "bottom_m": 1.5,
+     "top_m": 2.0,
+     "cuts_wall": false,
+     "state": "",
+     "score": 80.33074466907617,
+     "photo_id": "c0f66202"
+    },
+    {
+     "type": "sign",
+     "label": "poster",
+     "t0": 0.9834006604338535,
+     "t1": 0.9969771237874324,
+     "bottom_m": 0.221,
+     "top_m": 1.641,
+     "cuts_wall": false,
+     "state": "",
+     "score": 80.33074466907617,
+     "photo_id": "c0f66202"
+    }
+   ],
+   "coverage": [
+    {
+     "t0": 0.3976540010010654,
+     "t1": 0.5342979384823747,
+     "photo_id": "58bff8ea",
+     "score": 17.037502026019904
+    },
+    {
+     "t0": 0.5342979384823747,
+     "t1": 0.7157462183720027,
+     "photo_id": "e102eb99",
+     "score": 29.97638581117903
+    },
+    {
+     "t0": 0.7157462183720027,
+     "t1": 0.8907329862712272,
+     "photo_id": "9ab15e65",
+     "score": 45.54496591316473
+    },
+    {
+     "t0": 0.8907329862712272,
+     "t1": 0.9966298611657117,
+     "photo_id": "c0f66202",
+     "score": 80.33074466907617
+    }
+   ],
+   "rev": 4
+  },
+  {
+   "id": "W001",
+   "a": [
+    249.5,
+    892.5
+   ],
+   "b": [
+    1483.5,
+    892.5
+   ],
+   "thickness_px": 5.0,
+   "height_m": 2.7,
+   "color_hex": "#C3C4C3",
+   "material": "painted",
+   "best_score": 47.671057998723,
+   "observed": true,
+   "features": [
+    {
+     "type": "outlet_or_switch",
+     "label": "power outlet (0.84)",
+     "t0": 0.9231043845959582,
+     "t1": 0.9355242175528053,
+     "bottom_m": 0.3,
+     "top_m": 1.2,
+     "cuts_wall": false,
+     "state": "",
+     "score": 47.671057998723,
+     "photo_id": "fcaf4eda"
+    },
+    {
+     "type": "other",
+     "label": "mirror",
+     "t0": 0.9539444269693371,
+     "t1": 0.9853571069753031,
+     "bottom_m": 0.5,
+     "top_m": 2.0,
+     "cuts_wall": false,
+     "state": "",
+     "score": 47.671057998723,
+     "photo_id": "fcaf4eda"
+    }
+   ],
+   "coverage": [
+    {
+     "t0": 0.4526653604108061,
+     "t1": 0.7371271341892132,
+     "photo_id": "b23a2f9b",
+     "score": 19.372294902774296
+    },
+    {
+     "t0": 0.7371271341892132,
+     "t1": 0.9997844884934115,
+     "photo_id": "fcaf4eda",
+     "score": 47.671057998723
+    }
+   ],
+   "rev": 2
+  },
+  {
+   "id": "W002",
+   "a": [
+    249.5,
+    154.0
+   ],
+   "b": [
+    249.5,
+    896.0
+   ],
+   "thickness_px": 5.0,
+   "height_m": 2.7,
+   "color_hex": "#E6E6E6",
+   "material": "unknown",
+   "best_score": 0.0,
+   "observed": false,
+   "features": [],
+   "coverage": [],
+   "rev": 0
+  },
+  {
+   "id": "W003",
+   "a": [
+    1483.5,
+    155.5
+   ],
+   "b": [
+    1483.5,
+    327.0
+   ],
+   "thickness_px": 5.0,
+   "height_m": 2.7,
+   "color_hex": "#E6E6E6",
+   "material": "unknown",
+   "best_score": 0.0,
+   "observed": false,
+   "features": [],
+   "coverage": [],
+   "rev": 0
+  },
+  {
+   "id": "W004",
+   "a": [
+    1483.5,
+    559.0
+   ],
+   "b": [
+    1483.5,
+    892.5
+   ],
+   "thickness_px": 5.0,
+   "height_m": 2.7,
+   "color_hex": "#B7B8B7",
+   "material": "painted",
+   "best_score": 3.1016593433291675,
+   "observed": true,
+   "features": [],
+   "coverage": [
+    {
+     "t0": 0.0441837140841176,
+     "t1": 0.7960722004974337,
+     "photo_id": "fcaf4eda",
+     "score": 3.1016593433291675
+    }
+   ],
+   "rev": 1
+  }
+ ],
+ "photos": [
+  {
+   "id": "e4118005",
+   "file": "e4118005.jpg",
+   "x": 1380.004150390625,
+   "y": 508.4986267089844,
+   "heading_deg": -72.83748626708984,
+   "hfov_deg": 96.15088653564453,
+   "vfov_deg": 60.000003814697266,
+   "pitch_deg": 0.0,
+   "height_m": 1.399999976158142,
+   "width": 826,
+   "height": 428,
+   "status": "done",
+   "error": "",
+   "walls_seen": [
+    "W000",
+    "W001"
+   ]
+  },
+  {
+   "id": "c0f66202",
+   "file": "c0f66202.jpg",
+   "x": 1483.2119140625,
+   "y": 448.077392578125,
+   "heading_deg": -4.7310943603515625,
+   "hfov_deg": 39.12248229980469,
+   "vfov_deg": 75.18276977539062,
+   "pitch_deg": -14.910451889038086,
+   "height_m": 1.3433051109313965,
+   "width": 591,
+   "height": 1280,
+   "status": "done",
+   "error": "",
+   "walls_seen": [
+    "W000"
+   ]
+  },
+  {
+   "id": "e102eb99",
+   "file": "e102eb99.jpg",
+   "x": 1475.008544921875,
+   "y": 448.543701171875,
+   "heading_deg": -43.10063934326172,
+   "hfov_deg": 39.12248229980469,
+   "vfov_deg": 75.18276977539062,
+   "pitch_deg": -16.960206985473633,
+   "height_m": 1.3343650102615356,
+   "width": 591,
+   "height": 1280,
+   "status": "done",
+   "error": "",
+   "walls_seen": [
+    "W000"
+   ]
+  },
+  {
+   "id": "58bff8ea",
+   "file": "58bff8ea.jpg",
+   "x": 1478.3232421875,
+   "y": 454.68328857421875,
+   "heading_deg": -68.85549926757812,
+   "hfov_deg": 39.12248229980469,
+   "vfov_deg": 75.18276977539062,
+   "pitch_deg": -18.427932739257812,
+   "height_m": 1.3239116668701172,
+   "width": 591,
+   "height": 1280,
+   "status": "done",
+   "error": "",
+   "walls_seen": [
+    "W000"
+   ]
+  },
+  {
+   "id": "b23a2f9b",
+   "file": "b23a2f9b.jpg",
+   "x": 1475.54736328125,
+   "y": 458.0490417480469,
+   "heading_deg": -127.546875,
+   "hfov_deg": 39.12248229980469,
+   "vfov_deg": 75.18276977539062,
+   "pitch_deg": -16.962215423583984,
+   "height_m": 1.3218483924865723,
+   "width": 591,
+   "height": 1280,
+   "status": "done",
+   "error": "",
+   "walls_seen": [
+    "W001"
+   ]
+  },
+  {
+   "id": "fcaf4eda",
+   "file": "fcaf4eda.jpg",
+   "x": 1478.7325439453125,
+   "y": 461.2635498046875,
+   "heading_deg": -162.94131469726562,
+   "hfov_deg": 39.12248229980469,
+   "vfov_deg": 75.18276977539062,
+   "pitch_deg": -18.982894897460938,
+   "height_m": 1.3075337409973145,
+   "width": 591,
+   "height": 1280,
+   "status": "done",
+   "error": "",
+   "walls_seen": [
+    "W001",
+    "W004"
+   ]
+  },
+  {
+   "id": "9ab15e65",
+   "file": "9ab15e65.jpg",
+   "x": 1444.9296875,
+   "y": 463.8180236816406,
+   "heading_deg": -25.681068420410156,
+   "hfov_deg": 39.12248229980469,
+   "vfov_deg": 75.18276977539062,
+   "pitch_deg": -17.82784080505371,
+   "height_m": 1.2709996700286865,
+   "width": 591,
+   "height": 1280,
+   "status": "done",
+   "error": "",
+   "walls_seen": [
+    "W000"
+   ]
+  },
+  {
+   "id": "9dd9f380",
+   "file": "9dd9f380.jpg",
+   "x": 1422.189697265625,
+   "y": 461.9911804199219,
+   "heading_deg": 110.22929382324219,
+   "hfov_deg": 39.12248229980469,
+   "vfov_deg": 75.18276977539062,
+   "pitch_deg": -16.22633171081543,
+   "height_m": 1.2580335140228271,
+   "width": 591,
+   "height": 1280,
+   "status": "done",
+   "error": "",
+   "walls_seen": []
+  }
+ ],
+ "version": 23
+}

@@ -1,0 +1,199 @@
+{
+ "plan_file": "plan.png",
+ "plan_width": 391,
+ "plan_height": 342,
+ "px_per_m": 40.0,
+ "entrance": [
+  328.0,
+  246.0
+ ],
+ "entrance_heading_deg": 0.0,
+ "wall_height_m": 2.7,
+ "walls": [
+  {
+   "id": "W000",
+   "a": [
+    60.0,
+    61.5
+   ],
+   "b": [
+    334.0,
+    61.5
+   ],
+   "thickness_px": 5.0,
+   "height_m": 2.7,
+   "color_hex": "#7F8890",
+   "material": "painted",
+   "best_score": 139.7267228609155,
+   "observed": true,
+   "features": [
+    {
+     "type": "door",
+     "label": "door",
+     "t0": 0.009103931517003033,
+     "t1": 0.2679838716056057,
+     "bottom_m": 0.0,
+     "top_m": 2.122,
+     "cuts_wall": true,
+     "state": "glass",
+     "score": 139.7267228609155,
+     "photo_id": "a97d1135"
+    },
+    {
+     "type": "sign",
+     "label": "exit sign (0.25)",
+     "t0": 0.05255548009472697,
+     "t1": 0.1958675420896132,
+     "bottom_m": 1.5,
+     "top_m": 2.0,
+     "cuts_wall": false,
+     "state": "",
+     "score": 139.7267228609155,
+     "photo_id": "a97d1135"
+    }
+   ],
+   "coverage": [
+    {
+     "t0": 0.015277411175490918,
+     "t1": 0.3024740402381008,
+     "photo_id": "a97d1135",
+     "score": 139.7267228609155
+    },
+    {
+     "t0": 0.3024740402381008,
+     "t1": 0.34863980887033197,
+     "photo_id": "b50f579a",
+     "score": 114.01965637008273
+    }
+   ],
+   "rev": 2
+  },
+  {
+   "id": "W001",
+   "a": [
+    61.5,
+    271.5
+   ],
+   "b": [
+    330.5,
+    271.5
+   ],
+   "thickness_px": 5.0,
+   "height_m": 2.7,
+   "color_hex": "#E6E6E6",
+   "material": "unknown",
+   "best_score": 0.0,
+   "observed": false,
+   "features": [],
+   "coverage": [],
+   "rev": 0
+  },
+  {
+   "id": "W002",
+   "a": [
+    61.5,
+    60.0
+   ],
+   "b": [
+    61.5,
+    275.0
+   ],
+   "thickness_px": 5.0,
+   "height_m": 2.7,
+   "color_hex": "#85878D",
+   "material": "painted",
+   "best_score": 334.57399612204074,
+   "observed": true,
+   "features": [
+    {
+     "type": "door",
+     "label": "door",
+     "t0": 0.006664447348392179,
+     "t1": 0.06932589885398065,
+     "bottom_m": 0.0,
+     "top_m": 2.1,
+     "cuts_wall": true,
+     "state": "",
+     "score": 334.57399612204074,
+     "photo_id": "a97d1135"
+    }
+   ],
+   "coverage": [
+    {
+     "t0": 0.007335310901058511,
+     "t1": 0.16570561660522326,
+     "photo_id": "a97d1135",
+     "score": 334.57399612204074
+    },
+    {
+     "t0": 0.16570561660522326,
+     "t1": 0.20258298777312087,
+     "photo_id": "b50f579a",
+     "score": 278.66553908266525
+    }
+   ],
+   "rev": 2
+  },
+  {
+   "id": "W003",
+   "a": [
+    330.5,
+    61.5
+   ],
+   "b": [
+    330.5,
+    271.5
+   ],
+   "thickness_px": 5.0,
+   "height_m": 2.7,
+   "color_hex": "#E6E6E6",
+   "material": "unknown",
+   "best_score": 0.0,
+   "observed": false,
+   "features": [],
+   "coverage": [],
+   "rev": 0
+  }
+ ],
+ "photos": [
+  {
+   "id": "b50f579a",
+   "file": "b50f579a.jpg",
+   "x": 179.59535217285156,
+   "y": 71.7535400390625,
+   "heading_deg": -85.99824523925781,
+   "hfov_deg": 38.29473876953125,
+   "vfov_deg": 73.90699768066406,
+   "pitch_deg": -13.189006805419922,
+   "height_m": 1.427549123764038,
+   "width": 591,
+   "height": 1280,
+   "status": "done",
+   "error": "",
+   "walls_seen": [
+    "W000",
+    "W002"
+   ]
+  },
+  {
+   "id": "a97d1135",
+   "file": "a97d1135.jpg",
+   "x": 160.62210083007812,
+   "y": 69.09024810791016,
+   "heading_deg": -85.91410827636719,
+   "hfov_deg": 38.29473876953125,
+   "vfov_deg": 73.90699768066406,
+   "pitch_deg": -9.902209281921387,
+   "height_m": 1.4686648845672607,
+   "width": 591,
+   "height": 1280,
+   "status": "done",
+   "error": "",
+   "walls_seen": [
+    "W000",
+    "W002"
+   ]
+  }
+ ],
+ "version": 7
+}
